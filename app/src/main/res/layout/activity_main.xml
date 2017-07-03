@@ -10,8 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.reportcard.MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/guzik"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Show Report Card"
+        android:onClick="ShowReportCard"/>
+    <TextView
+        android:id="@+id/Output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guzik"
+        android:text="Click the button above" />
 </RelativeLayout>

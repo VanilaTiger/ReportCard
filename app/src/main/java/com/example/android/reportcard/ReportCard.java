@@ -69,10 +69,10 @@ public class ReportCard {
     @Override
         public String toString(){
         return "Student: "+
-                getName()+" " + getSurname()+ "," +
-                "from the group: " + getGroup()+ "," +
-                "Math grade: " + getMathGrade() + "," +
-                "Chemistry grade: " + getChemistryGrade() + "," +
+                getName()+" " + getSurname() +
+                " from the group " + getGroup()+ " has following grades: " +
+                "Math grade: " + getMathGrade() + ", " +
+                "Chemistry grade: " + getChemistryGrade() + ", " +
                 "Art grade: " + getArtGrade();
 
     }
